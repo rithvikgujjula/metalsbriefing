@@ -240,6 +240,9 @@ Ban vague lines like "exposed to trade policy shifts". If a specific isn't finda
 ## Financial Position
 4-6 bullets with figures: revenue/EBITDA trend, margins, leverage, inventory, liquidity, credit red flags.
 
+## Market Context
+5-8 bullets on the CURRENT tape for the metals this company actually trades, drawn from: US HRC/CRC/plate/rebar, scrap (busheling/shred), LME aluminum/copper/nickel/zinc, Midwest premium, stainless surcharges, relevant regional prices. Search for current prices, do not rely on memory. Each bullet: current level with date, direction vs ~30/90 days, one clause on what it means for THIS company (margin, inventory value, buying window). Skip any price you cannot find with a date; never guess a number.
+
 ## Sources
 Numbered markdown links.
 
@@ -330,7 +333,7 @@ $("copyBtn").onclick = async () => {
   setTimeout(() => { $("copyBtn").textContent = "Copy markdown"; }, 1500);
 };
 
-const REQUIRED_SECTIONS = ["## Snapshot", "## Asset Footprint", "## Counterparties", "## Commercial Angles", "## Recent Developments", "## Trade & Tariff Exposure", "## Financial Position", "## Sources"];
+const REQUIRED_SECTIONS = ["## Snapshot", "## Asset Footprint", "## Counterparties", "## Commercial Angles", "## Recent Developments", "## Trade & Tariff Exposure", "## Financial Position", "## Market Context", "## Sources"];
 
 // One streaming API request. Appends text to rawMarkdown, collects the
 // assistant content blocks (needed to resume pause_turn / max_tokens),
@@ -462,13 +465,13 @@ async function buildBriefing(company) {
     max_tokens: deep ? 16000 : 10000,
     stream: true,
     system: SYSTEM_PROMPT,
-    tools: [{ type: "web_search_20250305", name: "web_search", max_uses: deep ? 20 : 12 }]
+    tools: [{ type: "web_search_20250305", name: "web_search", max_uses: deep ? 22 : 14 }]
   };
   const userMsg = {
     role: "user",
     content: "Build the commercial briefing for: " + company +
       "\n\nToday's date: " + new Date().toDateString() +
-      ". Research before writing. Reserve at least 3 searches for the asset footprint (official locations page + 10-K properties); the asset list must be complete. All 8 sections are mandatory" +
+      ". Research before writing. Reserve at least 3 searches for the asset footprint (official locations page + 10-K properties); the asset list must be complete. Reserve 2 searches for current market prices (Market Context section). All 9 sections are mandatory" +
       (deep ? ". This is a DEEP briefing: also dig into filings, trade press (AMM/Fastmarkets/SMU), and local news." : ".")
   };
 
