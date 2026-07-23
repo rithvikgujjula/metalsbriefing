@@ -1,0 +1,89 @@
+{
+ "company": "Cleveland-Cliffs",
+ "slug": "cleveland-cliffs",
+ "ticker": "CLF",
+ "descriptor": "Largest US flat-rolled steelmaker and iron ore miner, integrated (BF/BOF) + EAF. HQ Cleveland, OH. NYSE: CLF.",
+ "generated": "2026-07-12",
+ "snapshot": [
+  ["Ownership", "Public, NYSE: CLF"],
+  ["Q1'26 note", "$80M EBITDA hit from Midwest energy spike"],
+  ["Auto shipments", "Highest in ~2 years, rising"],
+  ["Asset sales", "$425M property proceeds targeted 2026"],
+  ["Products", "Flat-rolled carbon, stainless, electrical, plate, tin, iron ore, HBI"],
+  ["Footprint", "US-centric, vertically integrated ore-to-steel"],
+  ["Customer core", "Automotive contracts, largest auto steel supplier"]
+ ],
+ "assets": {
+  "note": "Major integrated works, EAFs, finishing, and mines; consolidation ongoing (plate idles 2026). Key assets below.",
+  "sites": [
+   {"name": "Burns Harbor Works (2 BFs)", "loc": "Indiana", "type": "Integrated, BF reline planned; smaller plate mill idled 2026", "cap": "~5.0 Mt/yr raw steel", "cap_mt": 5.0},
+   {"name": "Indiana Harbor Works", "loc": "East Chicago, IN", "type": "IH#7, largest blast furnace in North America; #3/#4 idled", "cap": "n/d", "cap_mt": 0},
+   {"name": "Cleveland Works (2 BFs, one idled)", "loc": "Cleveland, OH", "type": "Integrated BOF + casters", "cap": "n/d", "cap_mt": 0},
+   {"name": "Dearborn Works", "loc": "Dearborn, MI", "type": "BF/BOF, auto sheet", "cap": "n/d", "cap_mt": 0},
+   {"name": "Middletown Works", "loc": "Middletown, OH", "type": "BF/BOF; hydrogen-DRI conversion abandoned, staying coal", "cap": "n/d", "cap_mt": 0},
+   {"name": "Riverdale, Gary finishing (plate line idled 2026)", "loc": "Illinois, Indiana", "type": "Downstream finishing fed by IH#7", "cap": "n/d", "cap_mt": 0},
+   {"name": "EAF + specialty (Butler, Coshocton, Mansfield, Zanesville)", "loc": "PA, OH", "type": "Electrical steel, stainless, specialty", "cap": "n/d", "cap_mt": 0},
+   {"name": "Toledo HBI plant", "loc": "Toledo, OH", "type": "HBI for internal + merchant supply", "cap": "~1.9 Mt/yr", "cap_mt": 1.9},
+   {"name": "Iron ore mines (Minorca, Hibbing, Tilden, United)", "loc": "MN, MI", "type": "Pellets, self-supply + merchant", "cap": "n/d", "cap_mt": 0}
+  ]
+ },
+ "counterparties": {
+  "suppliers": [
+   "Self-supplied iron ore pellets from own Minnesota/Michigan mines: structural cost hedge",
+   "Coal/coke: own and contracted cokemaking (SunCoke arrangements likely); names not fully disclosed",
+   "Midwest power and natural gas: exposed, Q1'26 spike cost $80M EBITDA"
+  ],
+  "jvs": [
+   "No major active production JVs disclosed post-AK Steel/ArcelorMittal USA acquisitions"
+  ],
+  "customers": [
+   "Auto OEMs: **GM, Ford, Stellantis, Honda, Toyota** programs (likely named set), largest US auto steel supplier",
+   "Fixed-price annual auto contracts: large contract book vs spot, renewal timing matters to margins",
+   "Plate and stainless: service centers and distributors, spot",
+   "Merchant HBI/pellets: other US mills buy Toledo HBI and Cliffs pellets"
+  ]
+ },
+ "angles": [
+  "Most auto-levered US mill and auto shipments at 2-year highs: the auto restock trade runs through CLF",
+  "Steel substituting aluminum in auto (per management): watch body-panel material decisions for volume shifts",
+  "Plate consolidation (Burns Harbor small mill, Gary line idled): Midwest plate supply tightens at the margin",
+  "$80M energy hit shows BF/BOF cost fragility: power spikes are a recurring margin risk vs EAF peers",
+  "$425M property sales landing through 2026: balance-sheet repair story, watch Q3/Q4 proceeds",
+  "Contract-heavy book lags spot rallies: CLF benefits later than Nucor/STLD as contracts reset"
+ ],
+ "developments": [
+  {"date": "Apr 2026", "event": "Q1: auto shipments highest in ~2 years; energy spike cost $80M EBITDA"},
+  {"date": "2026", "event": "Idled smaller Burns Harbor plate mill and Gary plate finishing line, no layoffs"},
+  {"date": "Mar 2026", "event": "Middletown hydrogen-DRI project formally abandoned, staying coal-based"},
+  {"date": "2026", "event": "$425M property-sale proceeds targeted: $50M Q2, $100M Q3, rest Q4"},
+  {"date": "2025", "event": "Cleveland Works blast furnace idled; Indiana Harbor #3/#4 remain idled"}
+ ],
+ "tariffs": [
+  "Section 232 at 50%: direct beneficiary, imports priced out of auto and flat-rolled contracts",
+  "AD/CVD orders on coated and CR from multiple countries reinforce the moat",
+  "Risk: auto customers absorbing tariff-inflated steel may cut builds or shift sourcing",
+  "Iron ore self-supply means no import feedstock exposure at all"
+ ],
+ "financials": [
+  "Q1'26: negative FCF on working capital build; $80M energy hit to EBITDA",
+  "Management: Q1 the start of sustained improvement through 2026",
+  "$425M asset-sale proceeds expected in 2026 to support deleveraging",
+  "Higher-cost BF/BOF structure vs EAF peers: operating leverage cuts both ways",
+  "Watch debt levels vs peers; leverage historically the CLF overhang"
+ ],
+ "market": [
+  "US HRC ~$1,130-1,160/st (SMU/Nucor CSP, early Jul 2026): contract book resets will capture it with a lag",
+  "Plate: prices ticking up, lead times elevated (SMU Jun 25); CLF just tightened supply via idles",
+  "Iron ore pellets: self-supplied, insulated from seaborne swings",
+  "Midwest power: spike already cost $80M in Q1, summer heat a live risk",
+  "Auto production: recovering, CLF shipments at 2-year highs confirm"
+ ],
+ "sources": [
+  {"t": "CLF Q1 2026 transcript (Fool)", "u": "https://www.fool.com/earnings/call-transcripts/2026/04/20/cleveland-cliffs-clf-q1-2026-earnings-transcript/"},
+  {"t": "Q1 earnings highlights", "u": "https://finance.yahoo.com/markets/stocks/articles/cleveland-cliffs-q1-earnings-call-152251699.html"},
+  {"t": "Q1 2026 earnings deck", "u": "https://d1io3yog0oux5.cloudfront.net/_009a392b97a1b8c9de0fe2df6fb34f4c/clevelandcliffs/db/1111/12032/file/CLF+-+First-Quarter+2026+Earnings+Presentation.pdf"},
+  {"t": "Burns Harbor operations", "u": "https://www.clevelandcliffs.com/operations/steelmaking/burns-harbor"},
+  {"t": "Cleveland Works BF idle", "u": "https://www.crainscleveland.com/manufacturing/cleveland-cliffs-idles-one-two-blast-furnaces-cleveland-works/"},
+  {"t": "Middletown plans (Ohio Capital Journal)", "u": "https://ohiocapitaljournal.com/2026/03/27/whats-next-for-ohios-former-green-steel-project-more-coal-it-seems/"}
+ ]
+}

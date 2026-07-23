@@ -1,0 +1,96 @@
+{
+ "company": "Alcoa",
+ "slug": "alcoa",
+ "ticker": "AA",
+ "descriptor": "Vertically integrated bauxite-alumina-aluminum producer. HQ Pittsburgh, PA. NYSE: AA.",
+ "generated": "2026-07-12",
+ "snapshot": [
+  ["Ownership", "Public, NYSE: AA"],
+  ["Q2'26 revenue", "$4.0B record, +24% seq"],
+  ["Q2'26 adj EBITDA", "$901M; adj net income $562M"],
+  ["Production", "Aluminum 636kt in Q2, +5% seq"],
+  ["Products", "Bauxite, alumina, primary aluminum, gallium (planned)"],
+  ["Footprint", "US, Canada, Australia, Brazil, Spain, Iceland"],
+  ["Smelting base", "~2.6 Mt/yr capacity"]
+ ],
+ "assets": {
+  "note": "~27 locations per company site. Key production assets below; refinery system ~17 Mt/yr installed across 6 refineries (AU/BR/ES).",
+  "sites": [
+   {"name": "WA alumina refineries (Pinjarra, Wagerup; Kwinana curtailed 2024)", "loc": "Western Australia", "type": "Alumina, world's biggest single source", "cap": "~8% of global market", "cap_mt": 0},
+   {"name": "Worsley Alumina (acquired from South32, Q2'26)", "loc": "Western Australia", "type": "Bauxite + alumina refinery", "cap": "~4.6 Mt/yr", "cap_mt": 4.6},
+   {"name": "San Ciprián refinery + smelter", "loc": "Galicia, Spain", "type": "Alumina + smelting, restart done Apr 2026", "cap": "smelter 228 kt/yr", "cap_mt": 0.23},
+   {"name": "Alumar (60% smelter)", "loc": "São Luís, Brazil", "type": "Refinery + restarted smelter", "cap": "n/d", "cap_mt": 0},
+   {"name": "Canadian smelters (Baie-Comeau, Deschambault, Bécancour)", "loc": "Québec", "type": "Primary aluminum, exports to US", "cap": "~1.0 Mt/yr combined", "cap_mt": 1.0},
+   {"name": "Warrick Operations", "loc": "Indiana, US", "type": "Smelter + rolling, duty-paid MW premium capture", "cap": "~0.27 Mt/yr smelting", "cap_mt": 0.27},
+   {"name": "Massena Operations", "loc": "New York, US", "type": "Longest continuously operating smelter", "cap": "0.13 Mt/yr", "cap_mt": 0.13},
+   {"name": "Portland smelter (consolidated share)", "loc": "Victoria, Australia", "type": "Restart completed Q2'26, ~95% of capacity", "cap": "~0.19 Mt/yr", "cap_mt": 0.19},
+   {"name": "Bauxite mines (Huntly, Willowdale, Juruti)", "loc": "Australia, Brazil", "type": "Bauxite", "cap": "n/d", "cap_mt": 0},
+   {"name": "Wagerup gallium facility (FID with AU/US/JP govts)", "loc": "Western Australia", "type": "Planned, ~10% of global gallium demand", "cap": "n/a", "cap_mt": 0}
+  ]
+ },
+ "counterparties": {
+  "suppliers": [
+   "Internal bauxite chain (Huntly, Willowdale, Juruti, now Worsley): largely self-supplied feedstock",
+   "Energy: long-term power contracts per smelter region (Québec hydro, Iberian renewables); terms not disclosed",
+   "**South32**: seller of Worsley bauxite/alumina assets to Alcoa, closed Q2'26"
+  ],
+  "jvs": [
+   "**CITIC + Marubeni** (likely): minority partners in Portland, VIC smelter JV",
+   "**Ignitis/Spanish partners**: San Ciprián renewables arrangements around restart (likely)",
+   "**Australia-US-Japan governments**: co-investment in Wagerup gallium facility, FID 2026"
+  ],
+  "customers": [
+   "~35% of 2026 primary shipments priced on duty-paid Midwest premium, ~25% duty-unpaid (company guidance)",
+   "US billet/slab/foundry buyers: names not disclosed, sold on LME + regional premium + product premium",
+   "Canadian smelter output flows to US customers, paying 50% Section 232 on full invoice value",
+   "Rolled products (Warrick): North American can sheet buyers, names not disclosed"
+  ]
+ },
+ "angles": [
+  "Record Midwest premium (~$2,529/t, May 2026): Alcoa's US smelters capture it fully, Canadian units pay tariff first",
+  "~$35M sequential added 232 cost on Canadian metal in Q2: origin arbitrage between AA's US vs Canada units is live",
+  "Restarts (San Ciprián, Portland, Alumar) add supply while premium is at records: watch P1020 spot offers loosening",
+  "EPS missed on alumina softness: refinery margin squeezed while smelter margin fat, spread trade between API and MWP",
+  "Worsley acquisition lengthens alumina position: they get longer alumina just as index weakens, watch resale flows",
+  "Gallium FID with 3 governments: strategic-metals credibility play, opens critical-minerals conversations"
+ ],
+ "developments": [
+  {"date": "Jul 2026", "event": "Q2 results: record $4.0B revenue, adj EBITDA $901M, EPS miss ($2.12 vs $2.31 est)"},
+  {"date": "Q2 2026", "event": "Closed acquisition of South32's Worsley alumina assets, Western Australia"},
+  {"date": "Q2 2026", "event": "Portland smelter restart complete, ~95% of capacity"},
+  {"date": "Jun 2026", "event": "Gallium facility FID at Wagerup with Australian, US, Japanese governments"},
+  {"date": "Apr 2026", "event": "San Ciprián smelter restart completed Apr 7"},
+  {"date": "Feb 2026", "event": "US Midwest premium hit record ~$2,182/t on tariff tension, kept climbing"}
+ ],
+ "tariffs": [
+  "Section 232 aluminum at 50% on full invoice value of Canadian-origin metal; no Canada exemption since Mar 2025",
+  "Tariff cost on Canadian imports rose ~$35M sequentially into Q2'26 (company guidance)",
+  "Midwest premium ~$2,529/t (May 2026), >40% of all-in US aluminum cost: tariff-driven, record level",
+  "US smelting assets (Warrick, Massena) are net beneficiaries; Canadian assets net payers",
+  "Washington aluminum incentive program under discussion: watch for smelter-restart subsidies changing US supply"
+ ],
+ "financials": [
+  "Q2'26: revenue $4.0B (record, +24% seq), adj net income $562M, adj EBITDA $901M",
+  "EPS $2.12 missed $2.31 estimate: alumina price softness the drag",
+  "Aluminum output 636kt, +5% seq on San Ciprián completion",
+  "Guidance supported by record Midwest premium as profit driver",
+  "Watch: alumina headwinds vs smelter strength, segment mix shifting"
+ ],
+ "market": [
+  "US Midwest premium: ~$2,529/t (early May 2026), record; was 98.5-99¢/lb per CRU earlier in the ramp",
+  "US all-in aluminum topped $6,000/t (2026): tariff cost floor discussion now standard",
+  "LME aluminum: strength cited in Q2 results; premium doing more work than LME flat price",
+  "Alumina index: softening, hitting refinery margins (Q2 EPS miss driver)",
+  "Global flows rerouting around US tariff wall per Alcoa CEO (Fastmarkets)"
+ ],
+ "sources": [
+  {"t": "Alcoa Q2 2026 results", "u": "https://www.stocktitan.net/news/AA/alcoa-corporation-reports-second-quarter-2026-81yntwrc90i2.html"},
+  {"t": "Q2 earnings call", "u": "https://www.benzinga.com/news/26/07/60515364/alcoa-reports-q2-2026-results-full-earnings-call-transcript"},
+  {"t": "Portland restart review", "u": "https://discoveryalert.com.au/alcoa-portland-restart-q2-earnings-aluminum-smelter-2026/"},
+  {"t": "Alcoa Q1 2026 results", "u": "https://news.alcoa.com/press-releases/press-release-details/2026/Alcoa-Corporation-Reports-First-Quarter-2026-Results/default.aspx"},
+  {"t": "MW premium record", "u": "https://discoveryalert.com.au/us-aluminum-tariffs-midwest-premium-cost-floor-2026/"},
+  {"t": "San Ciprián restart", "u": "https://www.metalnomist.com/2026/05/alcoa-san-ciprian-smelter-restart.html"},
+  {"t": "Alcoa locations", "u": "https://www.alcoa.com/global/en/who-we-are/locations"},
+  {"t": "Tariffs reshaping flows (Fastmarkets)", "u": "https://www.fastmarkets.com/insights/us-tariffs-reshaping-global-aluminium-flows-andrea-hotter/"}
+ ]
+}

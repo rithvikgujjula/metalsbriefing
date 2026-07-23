@@ -1,0 +1,82 @@
+{
+ "company": "Ryerson + Olympic Steel",
+ "slug": "ryerson-olympic",
+ "ticker": "RYI",
+ "descriptor": "Combined metals service center giant: Ryerson acquired Olympic Steel, merger closed Feb 13, 2026. NYSE: RYI.",
+ "generated": "2026-07-12",
+ "snapshot": [
+  ["Ownership", "Public, NYSE: RYI; ex-ZEUS holders ~37%"],
+  ["Combined revenue", "~$6.5B annually"],
+  ["Network", "160 facilities"],
+  ["Deal", "All-stock, ~$792M equity value for Olympic"],
+  ["Products", "Carbon/stainless/aluminum sheet, plate, bar, fabrication"],
+  ["Leadership", "Lehner CEO (Ryerson), Marabito President/COO (Olympic)"],
+  ["Synergy target", "~$120M/yr by early 2028"]
+ ],
+ "assets": {
+  "note": "160 combined facilities post-merger (company). Service centers and processing, not mills; representative footprint below, full list in filings.",
+  "sites": [
+   {"name": "Combined service center network", "loc": "US, Canada, Mexico, China (Ryerson legacy)", "type": "Distribution + processing: slitting, CTL, plate burning, fabrication", "cap": "160 facilities", "cap_mt": 0},
+   {"name": "Olympic legacy carbon flat network", "loc": "Midwest/Southeast US", "type": "Carbon sheet/plate processing, incl. CTI and metal-intensive brands", "cap": "n/d", "cap_mt": 0},
+   {"name": "Olympic specialty metals", "loc": "US", "type": "Stainless + aluminum distribution", "cap": "n/d", "cap_mt": 0},
+   {"name": "Olympic pipe & tube (Chicago Tube & Iron)", "loc": "Midwest US", "type": "Tubular distribution", "cap": "n/d", "cap_mt": 0},
+   {"name": "Ryerson advanced processing", "loc": "US", "type": "Value-add fabrication, kitting", "cap": "n/d", "cap_mt": 0}
+  ]
+ },
+ "counterparties": {
+  "suppliers": [
+   "US sheet/plate mills: **Nucor, Cleveland-Cliffs, Steel Dynamics** among primary suppliers (likely, standard for majors)",
+   "Stainless: **NAS, Outokumpu** (likely); aluminum rolling mills for common alloy",
+   "Post-merger procurement consolidation is a core synergy: mill negotiating leverage just went up"
+  ],
+  "jvs": [
+   "None material; growth via M&A roll-ups (Olympic the latest and largest)"
+  ],
+  "customers": [
+   "~40,000+ combined industrial customers: fabricators, OEMs, machine shops; no concentration",
+   "End markets: industrial equipment, construction products, transportation, energy",
+   "Sold spot/short-term: inventory price exposure passes through with a lag"
+  ]
+ },
+ "angles": [
+  "Distributors at record HRC: inventory holding gains now, but destock risk when the rally tops: watch their buying pace",
+  "Procurement consolidation ($120M synergy target): mills lose pricing power to the combined buyer, sellers take note",
+  "Integration year: branch overlaps closing, competitors can poach accounts during transition",
+  "232 at 50% inflates replacement cost: distributor margins benefit while inventory revalues upward",
+  "Combined scale (~$6.5B) makes RYI the must-call counterparty for any spot tonnage program in the Midwest",
+  "Watch working capital: service centers destock hard when HRC turns, that flow hits mill order books first"
+ ],
+ "developments": [
+  {"date": "Feb 2026", "event": "Merger closed Feb 13; Olympic shares ceased trading on NASDAQ"},
+  {"date": "Feb 2026", "event": "Shareholders approved deal Feb 12 (SMU)"},
+  {"date": "Oct 2025", "event": "Definitive all-stock merger agreement announced, 1.7105 RYI per ZEUS share"},
+  {"date": "2026", "event": "Integration underway: 160 facilities, ~$120M synergies targeted by early 2028"}
+ ],
+ "tariffs": [
+  "Section 232 at 50%: raises replacement cost of all carbon/stainless/aluminum inventory, margin tailwind on the way up",
+  "Import optionality reduced: distributors historically arbitraged imports, 50% duty largely closes that",
+  "Derivative tariffs (Apr 2026 expansion) push some customers to buy domestic processed metal: volume positive",
+  "Risk: demand destruction among small fabricator customers facing tariff-inflated metal costs"
+ ],
+ "financials": [
+  "Combined ~$6.5B annual revenue, 160 facilities (announcement)",
+  "~$120M annual synergies targeted by early 2028: procurement, scale, efficiency",
+  "All-stock structure preserved cash; leverage manageable",
+  "Service center earnings track metal price direction with a lag: record HRC = strong 2026 gross margins",
+  "Detailed combined financials: first full quarter reports post-close during 2026"
+ ],
+ "market": [
+  "US HRC $1,130-1,160/st (SMU/Nucor CSP, early Jul 2026): inventory holding gains accruing now",
+  "Sheet/plate lead times elevated (SMU Jun 25): restock urgency supports distributor pricing",
+  "Busheling flat $465-471/t: mill spreads wide, mills less desperate to discount to distributors",
+  "Stainless surcharges and aluminum Midwest premium at records: all three metal books benefiting",
+  "The cycle question: 23-week HRC rally plateauing, distributor destock is the next big flow event"
+ ],
+ "sources": [
+  {"t": "Merger close (PR Newswire)", "u": "https://www.prnewswire.com/news-releases/ryerson-and-olympic-steel-announce-successful-closing-of-merger-302688031.html"},
+  {"t": "Merger close (Nasdaq)", "u": "https://www.nasdaq.com/press-release/ryerson-and-olympic-steel-announce-successful-closing-merger-2026-02-13"},
+  {"t": "Shareholder approval (SMU)", "u": "https://www.steelmarketupdate.com/2026/02/12/shareholders-ok-ryerson-olympic-deal/"},
+  {"t": "Ryerson FY2025 10-K", "u": "https://www.sec.gov/Archives/edgar/data/1481582/000119312526062397/ryi-20251231.htm"},
+  {"t": "SMU lead times", "u": "https://www.steelmarketupdate.com/2026/06/25/smu-survey-lead-times-remain-elevated-on-sheet-and-plate/"}
+ ]
+}

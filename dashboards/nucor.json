@@ -1,0 +1,101 @@
+{
+ "company": "Nucor",
+ "slug": "nucor",
+ "ticker": "NUE",
+ "descriptor": "Largest US steelmaker and recycler, EAF-based. HQ Charlotte, NC. NYSE: NUE.",
+ "generated": "2026-07-12",
+ "snapshot": [
+  ["Ownership", "Public, NYSE: NUE"],
+  ["Q1'26 net sales", "$9.50B, +21% y/y"],
+  ["Q1'26 EBITDA", "$1.51B"],
+  ["Employees", "31,000+"],
+  ["Products", "Sheet, plate, structural, bar, DRI, scrap"],
+  ["Footprint", "US-centric; Trinidad DRI, Mexico JV"],
+  ["Customer sectors", "Construction, data centers, renewables, energy, auto"]
+ ],
+ "assets": {
+  "note": "300+ operating facilities per 2026 company filings. Major production assets below; bar mill capacity not re-verified.",
+  "sites": [
+   {"name": "Sheet mills (6, incl 51% CSI)", "loc": "SC, AR, IN, AL, KY, CA", "type": "EAF flat-rolled", "cap": "~14.6 Mt/yr", "cap_mt": 14.6},
+   {"name": "WV sheet mill (ramps 2027-28)", "loc": "Mason County, WV", "type": "Low-GHG sheet, commissioning late 2026", "cap": "3.0 Mt/yr", "cap_mt": 3.0},
+   {"name": "Plate mills (3)", "loc": "Hertford NC, Tuscaloosa AL, Brandenburg KY", "type": "Plate", "cap": "~3.6 Mt/yr", "cap_mt": 3.6},
+   {"name": "Structural mills (2)", "loc": "Blytheville AR (Nucor-Yamato), Berkeley SC", "type": "Beams, piling", "cap": "~3.3 Mt/yr", "cap_mt": 3.3},
+   {"name": "Bar mills", "loc": "Nationwide network", "type": "Rebar, merchant, SBQ, mostly spot", "cap": "n/d", "cap_mt": 0},
+   {"name": "DRI plants (2)", "loc": "St. James Parish LA; Trinidad", "type": "DRI, ~3.3 Mt supplied 2025", "cap": "2.5 + 2.0 Mt/yr", "cap_mt": 4.5},
+   {"name": "DJJ scrap (6 regional cos.)", "loc": "US", "type": "Processing + ferrous/pig iron/HBI brokerage", "cap": "~5.0 Mt/yr", "cap_mt": 5.0},
+   {"name": "Berkeley galv line (mid-2026)", "loc": "Berkeley SC", "type": "Auto/durables galvanizing", "cap": "0.5 Mt/yr", "cap_mt": 0.5},
+   {"name": "Mexico JV galv", "loc": "Central Mexico", "type": "Galvanized sheet, 50/50 with JFE", "cap": "0.4 Mt/yr", "cap_mt": 0.4},
+   {"name": "Towers plants (new)", "loc": "Indiana, Utah", "type": "Utility structures, mid-2026/2027", "cap": "n/a", "cap_mt": 0},
+   {"name": "Downstream units", "loc": "Nationwide", "type": "Joists, deck, buildings, doors (Rytec), data-center racks", "cap": "n/a", "cap_mt": 0}
+  ]
+ },
+ "counterparties": {
+  "suppliers": [
+   "**Samarco** (BHP/Vale JV, Brazil): DRI imports to Louisiana, 5-year extended agreement",
+   "**Ovintiv** (ex-Encana): legacy gas position incl. 49% of ~54,000 acres, South Piceance Basin",
+   "**NextEra Energy Resources**: solar agreement backing Kentucky operations",
+   "**DJJ** (in-house): ~5 Mt/yr processing + pig iron/HBI brokerage from thousands of US dealers"
+  ],
+  "jvs": [
+   "**Yamato Kogyo** (Japan): 49% of Nucor-Yamato structural mill, Blytheville AR",
+   "**JFE Steel** (Japan): 49% of California Steel Industries; 50/50 Mexico auto-galv JV"
+  ],
+  "customers": [
+   "Sheet: ~85% contract customers in 2025 (10-K); names not disclosed, no customer >10% of revenue",
+   "Plate/structural/rebar/SBQ: nearly all spot via service centers (likely) incl. Ryerson, Olympic Steel",
+   "Data centers: claims ~95% of a build's steel; sees 60M sq ft of DC construction in 2026, +30% y/y",
+   "Utilities/telecom: Towers & Structures unit; 3rd plant coming in Brigham City UT ($200M)"
+  ]
+ },
+ "angles": [
+  "Metal spread ~$660/st (HRC $1,130 vs busheling ~$470): EAF margins near records, scrap sellers have room to push",
+  "Nucor held CSP flat 2 straight weeks after 23-week, +$380 rally: watch for the top, hedge forward sales",
+  "Prime scrap is their pain point: busheling tightness and pig iron/DRI alternatives open the DJJ conversation",
+  "WV 3Mt sheet ramp 2027: Ohio Valley HRC basis pressure coming, position accordingly",
+  "Q2 guided higher on price, lead times elevated: consider CME HRC hedges before restock season",
+  "$2.5B capex plus stated M&A appetite: downstream bolt-ons (doors, racks, towers), not commodity assets",
+  "Auto and resi construction lagging: Berkeley galv line needs auto demand that hasn't shown up yet"
+ ],
+ "developments": [
+  {"date": "Jul 2026", "event": "Held HR coil CSP at $1,130/st for second straight week"},
+  {"date": "Jun 2026", "event": "232 carve-outs widened; COO Sumoski retired Jun 13"},
+  {"date": "Apr 2026", "event": "Q1 beat: EPS $3.23 vs $2.70-2.80 guide, record mill shipments"},
+  {"date": "Apr 2026", "event": "Section 232 expanded Apr 6: 50% on full customs value, more derivatives"},
+  {"date": "Jan 2026", "event": "Laxton became President and COO; Topalian eyeing M&A"},
+  {"date": "2026", "event": "Capex ~$2.5B; Berkeley galv line mid-2026; WV mill commissioning late 2026"}
+ ],
+ "tariffs": [
+  "232 steel at 50% since Jun 2025; Apr 2026 action: full customs value, wider derivative list",
+  "Net beneficiary: ~100% US melt; only import exposure is untariffed Brazilian ore/DRI",
+  "50% duty prices out foreign HRC, underpinning $1,100+ domestic prices",
+  "Jun 2026 carve-outs (15% equipment, 10% high-US-content capital goods): marginal pricing-umbrella erosion",
+  "Risk: tariff-inflated steel costs push derivative-product customers to cut volume or import finished goods"
+ ],
+ "financials": [
+  "Q1'26: sales $9.50B (+21% y/y), net income $743M, EPS $3.23, EBITDA $1.51B",
+  "Record steel mills segment shipments in Q1'26",
+  "Q2'26 guided higher: stable mill volumes, better realized pricing across segments",
+  "Capex ~$2.5B for 2026, internally funded; investment-grade credit",
+  "Stock +23% in 3 months; no red flags in current filings"
+ ],
+ "market": [
+  "HRC: Nucor CSP $1,130/st (Jul 6), SMU $1,160/st (Jun 30); +$380 over 23 weeks, now plateaued",
+  "West Coast HRC (CSI): $1,180/st, held w/w",
+  "Busheling/prompt scrap: $465-471/t all year (RMDAS); July settled sideways",
+  "Spread read: mills captured the entire rally; scrap has catch-up potential if pig iron/DRI tightens",
+  "Sheet and plate lead times elevated (SMU, Jun 25); CR/coated flat",
+  "Global: China rebar near 8-month lows (~CNY 3,060/t), EU import curbs; US decoupled via 232"
+ ],
+ "sources": [
+  {"t": "Nucor Q1 2026 results", "u": "https://www.prnewswire.com/news-releases/nucor-reports-results-for-the-first-quarter-of-2026-302754639.html"},
+  {"t": "FY2025 10-K", "u": "https://www.sec.gov/Archives/edgar/data/73309/000119312526071575/nue-20251231.htm"},
+  {"t": "SMU: CSP $1,130", "u": "https://www.steelmarketupdate.com/2026/07/06/nucor-holds-spot-hr-price-at-1130-ton-again/"},
+  {"t": "RMDAS scrap", "u": "https://www.recyclingtoday.com/news/recycled-steel-ferrous-scrap-rmdas-june-2026-prices-stable/"},
+  {"t": "232 Apr 2026", "u": "https://www.chrobinson.com/en-us/resources/insights-and-advisories/client-advisories/2026q2/04-06-2026-us-expands-n-increases-sec232-tariffs-on-aluminum-steel-n-copper-effective-apr-6/"},
+  {"t": "Samarco DRI deal", "u": "https://www.recyclingtoday.com/news/nucor-samarco-direct-reduced-iron-brazil-to-usa-emissions-recycling/"},
+  {"t": "JFE/CSI", "u": "https://www.jfe-steel.co.jp/en/release/2021/211213.html"},
+  {"t": "Encana gas", "u": "https://www.prnewswire.com/news-releases/nucor-restructures-natural-gas-supply-agreements-300338346.html"},
+  {"t": "NextEra solar", "u": "https://nucor.com/news-release/20046"},
+  {"t": "Data center push", "u": "https://www.steelmarketupdate.com/2025/10/31/nucor-targets-white-hot-data-center-boom/"}
+ ]
+}

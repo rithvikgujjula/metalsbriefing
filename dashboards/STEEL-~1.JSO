@@ -1,0 +1,91 @@
+{
+ "company": "Steel Dynamics",
+ "slug": "steel-dynamics",
+ "ticker": "STLD",
+ "descriptor": "EAF steelmaker, metals recycler, and new flat-rolled aluminum entrant. HQ Fort Wayne, IN. NASDAQ: STLD.",
+ "generated": "2026-07-12",
+ "snapshot": [
+  ["Ownership", "Public, NASDAQ: STLD"],
+  ["Q1'26 net income", "$403M, EPS $2.78"],
+  ["Q1'26 adj EBITDA", "$700M, up sharply q/q"],
+  ["Q1'26 steel shipments", "Record 3.6 Mt"],
+  ["Products", "Sheet, long products, fabrication, aluminum, scrap"],
+  ["Footprint", "US + Mexico scrap/slab operations"],
+  ["Aluminum ramp", "22kt Q1 → 60-70kt guided Q2"]
+ ],
+ "assets": {
+  "note": "Flat roll: ~11.4 Mt/yr shipping capacity (9.4 Mt steelmaking at 3 EAF mills). Long products and aluminum below; full site list in 10-K.",
+  "sites": [
+   {"name": "Butler flat roll", "loc": "Butler, IN", "type": "EAF sheet", "cap": "~3.0 Mt/yr", "cap_mt": 3.0},
+   {"name": "Columbus flat roll", "loc": "Columbus, MS", "type": "EAF sheet (ex-Severstal)", "cap": "~3.4 Mt/yr", "cap_mt": 3.4},
+   {"name": "Sinton flat roll", "loc": "Sinton, TX", "type": "Next-gen EAF sheet, serves SW US + Mexico", "cap": "~3.0 Mt/yr", "cap_mt": 3.0},
+   {"name": "Heartland", "loc": "Terre Haute, IN", "type": "Cold roll / galvanizing", "cap": "n/d", "cap_mt": 0},
+   {"name": "Structural and rail", "loc": "Columbia City, IN", "type": "Beams, rail", "cap": "n/d", "cap_mt": 0},
+   {"name": "Engineered bar", "loc": "Pittsboro, IN", "type": "SBQ bar", "cap": "n/d", "cap_mt": 0},
+   {"name": "Bar/rebar mills", "loc": "Roanoke VA, WV, others", "type": "Long products", "cap": "n/d", "cap_mt": 0},
+   {"name": "Aluminum Dynamics rolling mill", "loc": "Columbus, MS", "type": "Flat-rolled aluminum, 2 of 3 cold mills online", "cap": "~0.65 Mt/yr at ramp", "cap_mt": 0.65},
+   {"name": "Aluminum slab centers", "loc": "San Luis Potosí, MX (+US)", "type": "Recycled slab feed for Columbus", "cap": "n/d", "cap_mt": 0},
+   {"name": "OmniSource scrap", "loc": "US + Mexico network", "type": "Ferrous/nonferrous recycling, feeds mills", "cap": "n/d", "cap_mt": 0},
+   {"name": "New Millennium + fabrication", "loc": "Multiple US", "type": "Joists, deck", "cap": "n/d", "cap_mt": 0}
+  ]
+ },
+ "counterparties": {
+  "suppliers": [
+   "**OmniSource** (in-house): scrap supply for steel + aluminum, one of the largest US recyclers",
+   "Mexican operations: strengthen raw material position for Columbus and Sinton, aluminum scrap procurement (company)",
+   "Prime scrap and P1020/primary units for aluminum ramp: external purchases, suppliers not disclosed"
+  ],
+  "jvs": [
+   "No major production JVs disclosed; growth is organic (Sinton, Aluminum Dynamics) rather than JV-driven"
+  ],
+  "customers": [
+   "Sheet: auto, construction, energy via contract + spot; Sinton targets southwest US and Mexican market",
+   "Aluminum Dynamics: can sheet and industrial buyers, names not disclosed; beverage majors the obvious targets (likely)",
+   "Long products: service centers and fabricators, mostly spot (likely)",
+   "Internal: New Millennium fabrication pulls own joist/deck steel"
+  ]
+ },
+ "angles": [
+  "Aluminum ramp makes STLD a new buyer of UBC/aluminum scrap and primary units: fresh counterparty for scrap sellers",
+  "Sinton exiting 2026 at 90% monthly run rate: southern HRC basis pressure into 2027, watch Houston spreads",
+  "Record 3.6Mt shipments at record spreads: mills printing, same hedging logic as Nucor applies",
+  "$1.4B projected through-cycle EBITDA from Sinton + value-add lines + aluminum: structural earnings step-up story",
+  "Mexico scrap infrastructure: cross-border flow angle, USMCA melt-and-pour rules matter to them",
+  "Aluminum Q2 guide 60-70kt vs 22kt Q1: ramp risk is the main operational watch item"
+ ],
+ "developments": [
+  {"date": "Apr 2026", "event": "Q1: record 3.6Mt steel shipments, $403M net income, adj EBITDA $700M"},
+  {"date": "Apr 2026", "event": "Aluminum shipments 22kt in Q1, guided 60-70kt for Q2"},
+  {"date": "Q1 2026", "event": "Two of three aluminum cold mills online; third expected Q3"},
+  {"date": "2026", "event": "Capital funding for Sinton, value-add lines, Aluminum Dynamics essentially complete"},
+  {"date": "2026", "event": "Targeting 90% monthly capacity run rate at aluminum mill exiting 2026"}
+ ],
+ "tariffs": [
+  "Section 232 steel + aluminum at 50%: dual beneficiary, US EAF steel and new US aluminum rolling",
+  "Aluminum 232 gives Aluminum Dynamics a protected ramp window against imported can sheet",
+  "Mexican slab/scrap operations: USMCA flows, exposure to any North American trade friction",
+  "Sinton positioned to serve Mexico: tariff/counter-tariff between US-Mexico is the risk to that book"
+ ],
+ "financials": [
+  "Q1'26: net income $403M, EPS $2.78, adj EBITDA $700M, record shipments 3.6Mt",
+  "Sequential jump driven by higher steel prices and volumes",
+  "Major capex cycle complete: FCF inflection expected as aluminum ramps",
+  "Aluminum projected to contribute to $1.4B/yr through-cycle EBITDA uplift (company)",
+  "Investment-grade; buyback-heavy capital returns historically"
+ ],
+ "market": [
+  "US HRC ~$1,130-1,160/st (SMU/Nucor CSP, early Jul 2026): STLD sheet mills fully exposed to the rally",
+  "Busheling $465-471/t all year (RMDAS): flat scrap costs = record metal spreads for EAFs",
+  "Sheet lead times elevated (SMU Jun 25): order books support Q2 pricing guidance",
+  "US Midwest aluminum premium at records (~$2,529/t May): tailwind for Aluminum Dynamics pricing",
+  "China rebar at 8-month lows: irrelevant to US book, US decoupled via 232"
+ ],
+ "sources": [
+  {"t": "STLD Q1 2026 transcript (Fool)", "u": "https://www.fool.com/earnings/call-transcripts/2026/04/21/steel-dynamics-stld-q1-2026-earnings-transcript/"},
+  {"t": "Q1 2026 summary", "u": "https://finance.yahoo.com/markets/stocks/articles/steel-dynamics-inc-q1-2026-123000344.html"},
+  {"t": "SDI steel operations", "u": "https://www.steeldynamics.com/steel/"},
+  {"t": "SDI flat roll group", "u": "https://sustainability.steeldynamics.com/flat-roll/"},
+  {"t": "SDI Sinton", "u": "https://sinton.steeldynamics.com/flat-roll/"},
+  {"t": "SWOT: aluminum momentum", "u": "https://www.investing.com/news/swot-analysis/steel-dynamics-swot-analysis-stock-gains-momentum-on-aluminum-93CH-4700216"}
+ ]
+}
