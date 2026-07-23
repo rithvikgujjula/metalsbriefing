@@ -1,0 +1,33 @@
+name: Update market data (OpenBB)
+
+on:
+  schedule:
+    - cron: "30 11 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install OpenBB
+        run: pip install --quiet openbb yfinance pandas
+
+      - name: Fetch market data
+        run: python fetch_market.py
+
+      - name: Commit market.json
+        run: |
+          git config user.name "metalsdesk-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add market.json
+          git diff --cached --quiet || git commit -m "Update market data"
+          git push
