@@ -1,26 +1,26 @@
 {
- "updated": "2026-07-28T13:08:18.788442+00:00",
+ "updated": "2026-07-29T13:12:56.636835+00:00",
  "engine": "OpenBB Platform (yfinance provider)",
  "tape": [
   {
    "sym": "HRC=F",
    "name": "HRC (CME)",
-   "last": 1155.0,
-   "chg_pct": -0.09,
+   "last": 1194.0,
+   "chg_pct": 3.29,
    "source": "openbb"
   },
   {
    "sym": "HG=F",
    "name": "Copper",
-   "last": 6.32,
-   "chg_pct": -0.27,
+   "last": 6.31,
+   "chg_pct": -0.2,
    "source": "openbb"
   },
   {
    "sym": "ALI=F",
    "name": "Aluminum",
-   "last": 3403.75,
-   "chg_pct": -3.9,
+   "last": 3360.0,
+   "chg_pct": -3.75,
    "source": "openbb"
   },
   {
@@ -53,10 +53,6 @@
   }
  ],
  "hrc_series": [
-  {
-   "d": "2026-03-20",
-   "c": 1012.0
-  },
   {
    "d": "2026-03-23",
    "c": 1009.0
@@ -407,7 +403,11 @@
   },
   {
    "d": "2026-07-28",
-   "c": 1155.0
+   "c": 1156.0
+  },
+  {
+   "d": "2026-07-29",
+   "c": 1194.0
   }
  ],
  "skipped": [
