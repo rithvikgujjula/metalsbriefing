@@ -1,66 +1,58 @@
 {
- "updated": "2026-09-18T15:03:48.880913+00:00",
+ "updated": "2026-09-21T17:08:07.674895+00:00",
  "engine": "OpenBB Platform (yfinance provider)",
  "tape": [
   {
    "sym": "HRC=F",
    "name": "HRC (CME)",
-   "last": 1297.0,
-   "chg_pct": 4.85,
+   "last": 1329.0,
+   "chg_pct": 7.44,
    "source": "openbb"
   },
   {
    "sym": "HG=F",
    "name": "Copper",
-   "last": 6.66,
-   "chg_pct": 1.17,
+   "last": 6.76,
+   "chg_pct": 2.24,
    "source": "openbb"
   },
   {
    "sym": "ALI=F",
    "name": "Aluminum",
-   "last": 3459.0,
-   "chg_pct": 0.78,
+   "last": 3445.0,
+   "chg_pct": -0.05,
    "source": "openbb"
   },
   {
    "sym": "NUE",
    "name": "Nucor",
-   "last": 248.88,
-   "chg_pct": -6.13,
+   "last": 245.1,
+   "chg_pct": -1.32,
    "source": "openbb"
   },
   {
    "sym": "STLD",
    "name": "Steel Dynamics",
-   "last": 232.87,
-   "chg_pct": -5.09,
+   "last": 232.04,
+   "chg_pct": -1.37,
    "source": "openbb"
   },
   {
    "sym": "CLF",
    "name": "Cliffs",
-   "last": 12.47,
-   "chg_pct": -2.31,
+   "last": 12.31,
+   "chg_pct": -1.48,
    "source": "openbb"
   },
   {
    "sym": "RS",
    "name": "Reliance",
-   "last": 387.55,
-   "chg_pct": -3.25,
+   "last": 386.17,
+   "chg_pct": -1.02,
    "source": "openbb"
   }
  ],
  "hrc_series": [
-  {
-   "d": "2026-05-12",
-   "c": 1082.0
-  },
-  {
-   "d": "2026-05-13",
-   "c": 1078.0
-  },
   {
    "d": "2026-05-14",
    "c": 1079.0
@@ -411,7 +403,11 @@
   },
   {
    "d": "2026-09-18",
-   "c": 1297.0
+   "c": 1237.0
+  },
+  {
+   "d": "2026-09-21",
+   "c": 1329.0
   }
  ],
  "skipped": [
